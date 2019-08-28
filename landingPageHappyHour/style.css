@@ -1,0 +1,91 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* background: black;
+    opacity: .2; */
+    
+
+}
+.container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template: 20vh 70vh 10vh;
+
+}
+   
+
+header{
+    /* opacity: .1;
+    height: 250px; */
+    /* background: yellow; */
+    grid-column-start: 1;
+    grid-column-end: 3; 
+    
+   
+}
+main{
+    /* opacity: .1;
+    height: 250px; */
+    /* width: 600px; */
+    /* background: blue; */
+    grid-column-start: 1;
+    grid-column-end: 2;
+   
+}
+aside{
+    /* opacity: .1;
+    height: 250px; */
+    /* min-width: 300px; */ 
+    /* background: tomato; */
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+footer{
+    /* height: 100px;
+    opacity: .1; */
+    /* background: green;  */
+    grid-column-start: 1;
+    grid-column-end: 3; 
+}
+.titulo{
+    font-family: monospace;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 150px;
+    color: rgb(252, 181, 0);
+   
+
+}
+
+.happyHour{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 150px;
+    color: rgb(242, 238, 238);
+   
+
+}
+
+.ingresso{
+   
+    font-family: monospace;
+    font-size: 17px;
+    text-align: left;
+    /* width: 100%px;
+    height: 100%;  
+    right: 5px; */
+    /* border-radius: 20%; */
+    /* border-top: 5px dotted #fffcdc; */
+    /* border: 2px solid#e1d552; */
+
+}
+.local{
+    font-family: monospace;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 150px;
+    color: rgb(242, 238, 238);
+   }
